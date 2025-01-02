@@ -75,8 +75,8 @@ const Hero = () => {
           <p className="text-gray-600 dark:text-gray-300">Tutors</p>
         </div>
         <div
-          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md"
-          data-aos="fade-up"
+         className="absolute bottom-4 left-[calc(50%-4rem)] transform bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md"
+  data-aos="fade-up"
         >
           <p className="text-2xl font-bold text-purple-600 dark:text-purple-400">Interactive</p>
           <p className="text-gray-600 dark:text-gray-300">Learning Games</p>
@@ -87,4 +87,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
